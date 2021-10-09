@@ -1,27 +1,49 @@
 /* * {
     border: 2px solid green;
     padding: 2px;
-} */
-body {
+}*/
+body { 
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+a {
+    color: white;
+}
 .one {
     display: flex;
-    background-color: #1f2937;
+    background-color: black;
     flex-direction: column;
-    color: beige;
+    color: white;
+    position: relative;
+    /* height: 700px; */
+}
+.videoMsg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+}
+#video1 {
+    height: 100%;
 }
 .oneA {
     width: 70vw;
     align-self: center;   
-    margin-top: 20px;
+    margin-top: 50px;
+    position: absolute;
 }
 .header {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 .oneHeading {
     font-size: 48px;
@@ -38,17 +60,15 @@ ul {
     flex-wrap: wrap;
     width: 70vw;
     align-self: center;
-    /* justify-content: space-between; */
-    /* gap: 50px; */
     justify-content: space-between;
-    /* align-content: space-between; */
     margin-top: 40px;
     margin-bottom: 40px;
 }
 .oneB img {
     border-radius: 10px;
-    border: 2px solid green;
-    height: 300px;   
+    border: 2px solid beige;
+    height: 260px; 
+    opacity: 1;  
 }
 .oneBText {
    display: flex;
@@ -65,29 +85,78 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
 }
-
 .someImages {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
-    gap: 30px;
-    
+    gap: 30px;   
 }
-
 .twoText {
     width: 150px;
     text-align: center;
+    
 }
 h2 {
     font-size: 40px;
 }
 .labeledImg img {
     border-radius: 8px;
-    border: 2px solid green;
+    border: 4px solid black;
     height: 90px;
 }
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+.threeA {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.threeB {
+    font-weight: 900;
+    align-self: flex-end;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: white;
+}
+.fourOne {
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;  
+    width: 800px;
+}
+.fourOneA {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
 
 
 
