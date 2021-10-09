@@ -9,7 +9,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a {
-    color: burlywood;
+    color: cornflowerblue;
 }
 .one {
     display: flex;
@@ -67,7 +67,7 @@ ul {
 .oneB img {
     border-radius: 10px;
     border: 2px solid beige;
-    height: 260px; 
+    height: 240px; 
     opacity: 1;  
 }
 .oneBText {
@@ -75,6 +75,7 @@ ul {
    flex-direction: column;
    gap: 15px;
    max-width: 250px;
+   font-size: 20px;
 }
 button {
     width: 100px;
